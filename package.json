@@ -5,11 +5,15 @@
   "repository": "git@github.com:leeorf/commitlint-config-belialuin.git",
   "author": "Leonardo Rodrigues <leo.rf.dev@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "prepare": "husky install"
+  },
   "peerDependencies": {
     "@commitlint/cli": "^17.0.3"
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.0.3"
+    "@commitlint/cli": "^17.0.3",
+    "husky": "^8.0.1"
   },
   "dependencies": {
     "@commitlint/config-conventional": "^17.0.3"
