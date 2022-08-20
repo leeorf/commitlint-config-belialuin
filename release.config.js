@@ -1,0 +1,12 @@
+require("dotenv").config();
+
+module.exports = {
+  branches: ["main", "dev"],
+  plugins: [
+    "@semantic-release/commit-analyzer",
+    "@semantic-release/release-notes-generator",
+    "@semantic-release/npm",
+    "@semantic-release/github",
+    "@semantic-release/changelog",
+  ],
+};
