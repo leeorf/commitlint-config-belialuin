@@ -5,6 +5,9 @@
   "repository": "git@github.com:leeorf/commitlint-config.git",
   "author": "Leonardo Rodrigues <leo.rf.dev@gmail.com>",
   "license": "MIT",
+  "engines": {
+    "node": ">=14.17.0"
+  },
   "scripts": {
     "prepare": "husky install"
   },
@@ -13,7 +16,12 @@
   },
   "devDependencies": {
     "@commitlint/cli": "^17.0.3",
-    "husky": "^8.0.1"
+    "@semantic-release/changelog": "^6.0.1",
+    "commitizen": "^4.2.5",
+    "cz-conventional-changelog": "3.3.0",
+    "dotenv": "^16.0.1",
+    "husky": "^8.0.1",
+    "semantic-release": "^19.0.3"
   },
   "dependencies": {
     "@commitlint/config-conventional": "^17.0.3"
