@@ -1,11 +1,11 @@
-# @belialuin/commitlint-config
+# commitlint-config-belialuin
 
 > Shareable `commitlint` config enforcing [Conventional Commits](https://www.conventionalcommits.org/) thru extension of [@commitlint/config-conventional](https://github.com/conventional-changelog/commitlint/tree/master/@commitlint/config-conventional). Use with [@commitlint/cli](https://www.npmjs.com/package/@commitlint/cli).
 
 ## Installation
 
 ```sh
-yarn add -D @commitlint/cli @belialuin/commitlint-config
+yarn add -D @commitlint/cli commitlint-config-belialuin
 ```
 
 ## Getting started
@@ -61,7 +61,7 @@ Create a `commitlint.config.js` file on the root directory and extend with this 
 
 ```js
 module.exports = {
-  extends: ["@belialuin"],
+  extends: ["belialuin"],
 };
 ```
 
@@ -72,7 +72,7 @@ In the `package.json` of your project
 ```json
 {
   "commitlint": {
-    "extends": ["@belialuin"]
+    "extends": ["belialuin"]
   }
 }
 ```
