@@ -5,6 +5,7 @@
   "repository": "git@github.com:leeorf/commitlint-config.git",
   "author": "Leonardo Rodrigues <leo.rf.dev@gmail.com>",
   "license": "MIT",
+  "files": [],
   "engines": {
     "node": ">=14.17.0"
   },
