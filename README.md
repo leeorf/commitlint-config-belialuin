@@ -46,7 +46,6 @@ chmod 755 .husky/commit-msg
 To automatically have Git hooks enabled after install, edit `package.json`
 
 ```json
-// package.json
 {
   "scripts": {
     "prepare": "husky install"
@@ -71,7 +70,6 @@ module.exports = {
 In the `package.json` of your project
 
 ```json
-// package.json
 {
   "commitlint": {
     "extends": ["@belialuin"]
