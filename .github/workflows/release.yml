@@ -20,6 +20,9 @@ jobs:
         with:
           node-version: "lts/*"
 
+      - name: Disable husky hooks
+        run: npm set-script prepare ""
+
       - name: Install dependencies
         run: yarn install --frozen-lockfile
 
