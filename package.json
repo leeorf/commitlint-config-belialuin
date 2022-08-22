@@ -12,6 +12,10 @@
   "scripts": {
     "prepare": "husky install"
   },
+  "keywords": [
+    "commitlint",
+    "commitlint-config"
+  ],
   "peerDependencies": {
     "@commitlint/cli": "^17.0.3"
   },
