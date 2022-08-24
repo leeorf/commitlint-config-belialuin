@@ -3312,9 +3312,9 @@ postcss-selector-parser@^6.0.10:
     util-deprecate "^1.0.2"
 
 prettier-config-belialuin@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/prettier-config-belialuin/-/prettier-config-belialuin-1.1.0.tgz#e99a8f208442a6bdbc656bb3ff57f9881d6d2d5c"
-  integrity sha512-VT1qeSKnIALZb25dmHEd0GteMWkegOj+X91BP9yutBpxr3zcDfn8ugzOda0kbMjWt9O1kRBBPFdqCbKMU8qXQA==
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/prettier-config-belialuin/-/prettier-config-belialuin-1.2.0.tgz#574e303474e258f7776561b9cb95260e720f338a"
+  integrity sha512-JZnkcv25l44nMdZ9zKy6pS1RjpTChUa+CXYD1C8Pk2cBugub46p2OWDEM3ZK7tb0oGv9ni6JTsn7X8BuH2lJEA==
 
 prettier@^2.7.1:
   version "2.7.1"
