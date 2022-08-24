@@ -10,7 +10,7 @@
     "node": ">=14.17.0"
   },
   "scripts": {
-    "prepare": "",
+    "prepare": "husky install",
     "format": "prettier --write .",
     "format:check": "prettier --check ."
   },
