@@ -1,23 +1,26 @@
-require("dotenv").config();
+require('dotenv').config();
 
 module.exports = {
-  branches: ["main"],
+  branches: ['main'],
   plugins: [
     [
-      "@semantic-release/commit-analyzer",
+      '@semantic-release/commit-analyzer',
       {
-        preset: "angular",
-        releaseRules: [{ type: "chore", scope: "meta", release: "patch" }],
+        preset: 'angular',
+        releaseRules: [
+          { type: 'chore', scope: 'meta', release: 'patch' },
+          { type: 'docs', scope: 'README', release: 'minor' },
+        ],
       },
     ],
-    "@semantic-release/release-notes-generator",
-    "@semantic-release/npm",
-    "@semantic-release/github",
-    "@semantic-release/changelog",
+    '@semantic-release/release-notes-generator',
+    '@semantic-release/npm',
+    '@semantic-release/github',
+    '@semantic-release/changelog',
     [
-      "@semantic-release/git",
+      '@semantic-release/git',
       {
-        assets: ["package.json", "CHANGELOG.md", "README.md"],
+        assets: ['package.json', 'CHANGELOG.md', 'README.md'],
         message:
           "build(release): release <%= nextRelease.version %> - <%= new Date().toLocaleDateString('en-US', {year: 'numeric', month: 'short', day: 'numeric', hour: 'numeric', minute: 'numeric' }) %> [skip-ci]\n\n<%= nextRelease.notes %>",
       },
