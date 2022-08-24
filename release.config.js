@@ -7,7 +7,10 @@ module.exports = {
       '@semantic-release/commit-analyzer',
       {
         preset: 'angular',
-        releaseRules: [{ type: 'chore', scope: 'meta', release: 'patch' }],
+        releaseRules: [
+          { type: 'chore', scope: 'meta', release: 'patch' },
+          { type: 'docs', scope: 'README', release: 'minor' },
+        ],
       },
     ],
     '@semantic-release/release-notes-generator',
