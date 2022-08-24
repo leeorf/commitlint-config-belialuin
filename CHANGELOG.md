@@ -1,3 +1,5 @@
+# [1.2.0](https://github.com/leeorf/commitlint-config-belialuin/compare/v1.1.1...v1.2.0) (2022-08-24)
+
 ## [1.1.1](https://github.com/leeorf/commitlint-config-belialuin/compare/v1.1.0...v1.1.1) (2022-08-22)
 
 # [1.1.0](https://github.com/leeorf/commitlint-config-belialuin/compare/v1.0.0...v1.1.0) (2022-08-21)
