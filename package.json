@@ -10,12 +10,19 @@
     "node": ">=14.17.0"
   },
   "scripts": {
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
   },
   "keywords": [
     "commitlint",
     "commitlint-config"
   ],
+  "lint-staged": {
+    "*": [
+      "prettier --write --ignore-unknown"
+    ]
+  },
   "peerDependencies": {
     "@commitlint/cli": "^17.0.3"
   },
@@ -27,6 +34,9 @@
     "cz-conventional-changelog": "3.3.0",
     "dotenv": "^16.0.1",
     "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "prettier": "^2.7.1",
+    "prettier-config-belialuin": "^1.1.0",
     "semantic-release": "^19.0.3"
   },
   "dependencies": {
